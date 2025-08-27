@@ -26,35 +26,42 @@
 <!-- ABOUT THE PROJECT -->
 ## 📌 About The Project
 
-**Sherlock** is an AI-powered enterprise knowledge management solution that seamlessly integrates with communication platforms like Slack. It transforms scattered workplace conversations into a searchable knowledge base, reducing search time from hours to seconds while preserving critical institutional memory.
+**Sherlock** is an AI-powered enterprise knowledge management solution that seamlessly integrates with communication platforms like Slack. Built with a sophisticated multi-agent architecture, it transforms scattered workplace conversations into an intelligent, searchable knowledge base.
 
 ### 🚀 Core Features
-- **💬 Slack Integration**  
-  Seamlessly connects with enterprise communication systems for natural language queries
-- **🤖 RAG-Powered Search**  
-  Advanced Retrieval-Augmented Generation delivers grounded answers with citations
-- **📊 Knowledge Analytics**  
-  Identifies knowledge gaps and inefficiencies through query pattern analysis
-- **🧠 Business Intelligence**  
-  IBM Granite-powered insights with actionable recommendations
+- **⚡ Instant Answers** - Transform hours of searching into seconds
+- **🤖 Multi-Agent Intelligence** - 7 specialized AI agents working in harmony
+- **🔒 Enterprise-Grade Safety** - Built-in content filtering and validation
+- **💬 Slack-Native** - Seamlessly ingests your team's conversations
+- **📊 Smart Routing** - Automatically directs queries to the right processing pipeline
+- **🧠 Context-Aware** - Maintains conversation history for better responses
+- **🔍 Semantic Search** - FAISS-powered vector search finds exactly what you need
+- **📝 Source Citations** - Every answer backed by traceable sources
 
 ### 🌟 Key Benefits
-- **⚡ 20% Time Savings**: Eliminate repetitive searches for the same problems
-- **🔒 Preserve Tribal Knowledge**: Capture and retain critical information permanently
-- **📈 Strategic Insights**: Transform search patterns into business intelligence
-- **🎯 Automated Reports**: Schedule and receive knowledge gap analyses
+- **20% Time Savings**: Eliminate repetitive searches for the same problems
+- **100% Knowledge Retention**: Preserve critical institutional memory
+- **Real-time Intelligence**: Transform search patterns into business insights
+- **Automated Workflows**: Schedule and receive knowledge gap analyses
 
 ### 🎬 Solution in Action
 Watch our [3-minute demo](https://youtu.be/S9SYz6pIt6w) to see Sherlock transform enterprise knowledge management.
 
-<!-- TECHNOLOGY STACK -->
-## 🛠️ Technology Stack
+<!-- WORKFLOW DIAGRAM -->
+## 🔄 Workflow
 
-### IBM Granite Models
-- **IBM Slate-125m** (`ibm/slate-125m-english-rtrvr-v2`)  
-  High-quality vector embeddings for semantic search
-- **IBM Granite-3.3-8B** (`ibm/granite-3-3-8b-instruct`)  
-  Powers RAG generation and business insights
+<img width="549" height="877" alt="graph" src="https://github.com/user-attachments/assets/02a5edce-4115-4019-932b-16ae0bc95bef" />
+
+
+
+### Agent Pipeline
+1. **Data Validator** - Ensures query processing efficiency with token management
+2. **Safety Agent** - Protects against harmful content using Llama Guard 2
+3. **Router Agent** - Intelligently categorizes queries for optimal processing
+4. **Context Builder** - Enhances queries with conversation history
+5. **Retrieval Agent** - Performs semantic search across knowledge base
+6. **Chat Agent** - Generates streaming responses with citations
+7. **Memory Manager** - Compresses long conversations for efficiency
 
 <!-- TARGET USERS -->
 ## 👥 Target Users
@@ -80,7 +87,6 @@ Sherlock transforms knowledge management from a time sink into a strategic asset
 ## 📞 Contact
 
 Atyab Hakeem – hakeematyab.official@gmail.com  
-Project Link: [https://github.com/hakeematyab/Sherlock](https://github.com/hakeematyab/Sherlock)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
