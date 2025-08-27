@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ensure full height for proper scrolling */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Remove default focus outline */
+input:focus {
+  outline: none;
+}
+
+/* Ensure header elements are always visible */
+.lucide {
+  flex-shrink: 0;
+}
+
+/* Prevent layout shifts */
+* {
+  box-sizing: border-box;
+}
+
+/* Ensure minimum heights */
+.min-h-screen {
+  min-height: 100vh;
+}
