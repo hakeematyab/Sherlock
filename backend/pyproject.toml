@@ -1,0 +1,22 @@
+[project]
+name = "Sherlock"
+version = "0.1.0"
+description = "Enterprise Knowledge Hub"
+readme = "README.md"
+requires-python = "==3.13.3"
+dependencies = ["numpy",
+                "langchain-google-genai",
+                "faiss-cpu",
+                "pandas",
+                "pydantic",
+                "fastapi",
+                "langchain-core",
+                "datasets",
+                "ragas",
+                "langchain-groq",
+                "uvicorn",
+                "instructor",
+                "groq",
+                "langgraph",
+                "aiosqlite"
+            ]
