@@ -45,7 +45,7 @@
 - **Automated Workflows**: Schedule and receive knowledge gap analyses
 
 ### 🎬 Solution in Action
-Watch our [3-minute demo](https://youtu.be/S9SYz6pIt6w) to see Sherlock transform enterprise knowledge management.
+Watch th [3-minute demo](https://youtu.be/S9SYz6pIt6w) to see Sherlock transform enterprise knowledge management.
 
 <!-- WORKFLOW DIAGRAM -->
 ## 🔄 Workflow
